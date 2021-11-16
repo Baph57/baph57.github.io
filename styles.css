@@ -1,0 +1,183 @@
+body{
+    background-color: rgb(204, 219, 236);
+    
+}
+ul{
+    display: inline;
+}
+li{
+    list-style-type: none;
+    display: flex;
+    height: 4rem;
+    width: 10rem;
+    margin: 10px;
+    text-decoration:none;
+    float: right;
+    flex-direction: row-reverse;
+}
+.navBacking{
+    position: absolute;
+    display: inline; 
+    width: 0; 
+    height: 0; 
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid rgb(188, 140, 243);
+    left:75rem;
+    z-index: -1;
+    
+}
+.navBacking2{
+    position: absolute;
+    display: inline; 
+    width: 0; 
+    height: 0; 
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid rgb(188, 140, 243);
+    left:65rem;
+    z-index: -1;
+} 
+.navBacking3{
+    position: absolute;
+    display: inline; 
+    width: 0; 
+    height: 0; 
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid rgb(188, 140, 243);
+    left:52rem;
+    z-index: -1;
+}
+.navBacking4{
+    position: absolute;
+    display: inline; 
+    width: 0; 
+    height: 0; 
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid rgb(188, 140, 243);
+    left:42rem;
+    z-index: -1;
+}
+.navBacking5{
+    position: absolute;
+    display: inline; 
+    width: 0; 
+    height: 0; 
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid rgb(188, 140, 243);
+    left:-30rem;
+    z-index: -1;
+}
+.nav_home{
+    float: left;
+}
+.home_backing{
+    position:absolute;
+    height:3rem ;
+    width:3rem ;
+    border-radius: 50%;
+    background-color:rgb(188, 140, 243);
+    left:3.5rem;
+    top:3rem;
+    z-index: -1;
+}
+.home_backing2{
+    position: absolute;
+    height: 3rem;
+    width: 1rem;
+    background-color:rgb(188, 140, 243);
+    left:5.3rem;
+    z-index: -1;
+
+}
+.home_backing3{
+    position: absolute;
+    height: 1rem;
+    width: 2rem;
+    background-color:rgb(188, 140, 243);
+    left:5.5rem;
+    z-index: -1;
+}
+.nav_border{
+    position: relative;
+    width: 90% vw;
+    height: 1% vw;
+    color: black;
+}
+.countdown{
+    position: sticky;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    background-color: rgb(188, 140, 243);
+    border-style: solid;
+    border-color: black;
+    border-width: .1rem;
+    top:14.5rem;
+    left:72.5rem;
+    float: right;
+}
+.banner{
+    position: relative;
+    display: inline;
+    width:40%vw;
+    height: 10%vw;
+    background-color: rgb(204, 219, 236)beige;
+    border: .1rem hidden black;
+    font-size: xx-large;
+}
+#homebanner{
+    display: flex;
+    top:0rem;
+    font-size:60px;
+    font-family: 'Monoton', cursive;
+    text-decoration: rgb(22, 6, 240);
+    width:50%;
+    left:20rem;
+    justify-content: center;    
+}
+.ticket_box{
+    position:sticky;
+    display: inline-block;
+    height: 7rem;
+    width: 7rem;
+    background-color:rgb(188, 140, 243) ;
+    border: 1px solid black;
+    top:80px;
+    left:40px;
+}
+.grid{
+    position: relative;
+    display: block;
+    left:15rem;
+}
+img{
+    display: inline;
+    top:7rem;
+    height: 22rem;
+    width: 22rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 10px 5px 5px rgb(50, 8, 240);
+}
+.grid-item{
+    position: relative;
+    display: grid;
+    height: 200px;
+    width: 200px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    box-shadow: 10px 5px 5px rgb(50, 8, 240);
+}
+.description{
+    display: inline-block;
+    position: absolute;
+    height: 5rem;
+    width: 5rem;
+    background-color: rgb(15, 9, 1);
+    top:-140rem;
+    z-index: -1;
+}
