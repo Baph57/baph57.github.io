@@ -14,3 +14,4 @@ photo_three.innerHTML = "I am the Doctor, and you are the Daleks! Did I mention 
 var description_four = document.getElementById("photo_four");
 photo_four.innerHTML = "They're not aliens, they're Earth…liens! You've swallowed a planet! Saving the world with meals on wheels. Annihilate? No. No violence. I won't stand for it. Not now, not ever, do you understand me?! I'm the Doctor, the Oncoming Storm - and you basically meant beat them in a football match, didn't you?"
 
+var workedExactly = true;
